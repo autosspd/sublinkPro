@@ -317,7 +317,7 @@ jobs:
   release:
     needs: [merge-binaries, prepare-preview, build-docker]
     if: >-
-      !cancelled() && needs.merge-binaries.result == 'success' && needs.build-docker.result == 'success' &&
+      !cancelled() && needs.merge-binaries.result == 'success' &&
       (github.ref_type == 'tag' || (github.ref == 'refs/heads/main' &&
        needs.prepare-preview.outputs.published == 'false'))
     runs-on: ubuntu-latest
