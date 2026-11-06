@@ -2616,11 +2616,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xyflow/react@npm:^12.12.0":
-  version: 12.12.0
-  resolution: "@xyflow/react@npm:12.12.0"
+"@xyflow/react@npm:^12.12.1":
+  version: 12.12.1
+  resolution: "@xyflow/react@npm:12.12.1"
   dependencies:
-    "@xyflow/system": "npm:0.0.83"
+    "@xyflow/system": "npm:0.0.84"
     classcat: "npm:^5.0.3"
     zustand: "npm:^4.4.0"
   peerDependencies:
@@ -2633,13 +2633,13 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 10c0/e8b1f8ade274b4b04f1b3b3f7efd43303a4fb967f91e0a8dc29cdea049fda45c9b34da729a4434de4dc8e065e25362a613b3e673b36311d49130fc5b2cbc8c57
+  checksum: 10c0/dff7d4045d0255f01917cabb4e03925632920358eadad3c917bcf8f0b6b14a04063a1d6c64a8ffa819bbbf54c8384541ce98435235e4743026a6c9b5c19d87f6
   languageName: node
   linkType: hard
 
-"@xyflow/system@npm:0.0.83":
-  version: 0.0.83
-  resolution: "@xyflow/system@npm:0.0.83"
+"@xyflow/system@npm:0.0.84":
+  version: 0.0.84
+  resolution: "@xyflow/system@npm:0.0.84"
   dependencies:
     "@types/d3-drag": "npm:^3.0.7"
     "@types/d3-interpolate": "npm:^3.0.4"
@@ -2650,7 +2650,7 @@ __metadata:
     d3-interpolate: "npm:^3.0.1"
     d3-selection: "npm:^3.0.0"
     d3-zoom: "npm:^3.0.0"
-  checksum: 10c0/cb1cc3d98f79bb7590089347e19b6e977adfa025dd11d51d33857df7c47a14c7b09bdf5985f4a99203761b2589f16dd79ab6e8522511e66113de9353af218b26
+  checksum: 10c0/4233e508183b2a2d4e391a7b66c5376bf945667e31472a762016a4a64f5b3a5ab5d74fa2998695735066e35214397dff2e97a0ff09d9ef72aff6aa6b99bc1ba1
   languageName: node
   linkType: hard
 
@@ -4533,33 +4533,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next-browser-languagedetector@npm:^8.2.3":
-  version: 8.2.3
-  resolution: "i18next-browser-languagedetector@npm:8.2.3"
+"i18next-browser-languagedetector@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "i18next-browser-languagedetector@npm:8.3.0"
   dependencies:
     "@babel/runtime": "npm:^7.29.2"
-  checksum: 10c0/f3af9c54a586f95bda29565c07ad660503efe7df59eb1e751a93ee675dac8b06d36788e8b142dd176ba53621107521b24e8905a6732f72b8e3140140efb10d7e
+  checksum: 10c0/34ec0e1a56fbcdaa1879e8ac0f11567d37edc3d1d45b3b562ac90c5eca774ff8bf59d4009257e37cd5adbd95434b07af6bfa24ea1efeb793c055e84af863c021
   languageName: node
   linkType: hard
 
-"i18next-resources-to-backend@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "i18next-resources-to-backend@npm:1.2.3"
+"i18next-resources-to-backend@npm:^1.2.4":
+  version: 1.2.4
+  resolution: "i18next-resources-to-backend@npm:1.2.4"
   dependencies:
     "@babel/runtime": "npm:^7.23.2"
-  checksum: 10c0/d2a95ee0d5eaeaa3a50f775670788cc624b71faaaa00d54213d1fa6079aa959d25eeb899352c0a3a55b55feb0603abef77b944c5a135b24895123c5810227629
+  checksum: 10c0/bcfca7b80d431fad9cf1030a0646406788d6c8165d91167a5b56e44b78050cff7f766b08aebe603b76c3dfea40fd78d3ae133906890d8de5686aa8c7fbac2155
   languageName: node
   linkType: hard
 
-"i18next@npm:^26.5.11":
-  version: 26.5.11
-  resolution: "i18next@npm:26.5.11"
+"i18next@npm:^26.7.1":
+  version: 26.7.1
+  resolution: "i18next@npm:26.7.1"
   peerDependencies:
     typescript: ^5 || ^6 || ^7
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/b2ecb58a38420530d928d93761efc1d4e966f24cf99518df843f5b8797be135d7b6defb01ca97b61bf2bc614a6fab56bd874032b42567ae22cfa84909c2187cd
+  checksum: 10c0/742c0d5ea25a68e0380de3be5c4b7d1f2a9ab9da81d5f2a85ea2892a500f60ba1a87a2c1fd6e0cd16588f37175dc88da817d3b26dda1963044f045bd86202960
   languageName: node
   linkType: hard
 
@@ -6328,9 +6328,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:^17.1.9":
-  version: 17.1.9
-  resolution: "react-i18next@npm:17.1.9"
+"react-i18next@npm:^17.1.11":
+  version: 17.1.11
+  resolution: "react-i18next@npm:17.1.11"
   dependencies:
     "@babel/runtime": "npm:^7.29.7"
     html-parse-stringify: "npm:^4.0.1"
@@ -6346,7 +6346,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/f3c263df1d152a6a757cd47895c86568fa36cd583ac659276afa9c5a97e6babd72e3197f22587862f7382de628428e39f757b6d67ad03ebbfd333296237d44d7
+  checksum: 10c0/f65a1c44889db97c5458e33bce5484e95c071bed1d6d011278c50e90571ee9ecaf16a95c47cbbc060aead04cfe10d66d4e7612d87fc4518676b12c7b2b73789a
   languageName: node
   linkType: hard
 
@@ -7284,7 +7284,7 @@ __metadata:
     "@tabler/icons-react": "npm:3.50.0"
     "@types/react": "npm:19.3.0"
     "@vitejs/plugin-react": "npm:5.2.0"
-    "@xyflow/react": "npm:^12.12.0"
+    "@xyflow/react": "npm:^12.12.1"
     apexcharts: "npm:5.16.0"
     axios: "npm:1.21.0"
     echarts: "npm:^6.0.0"
@@ -7295,9 +7295,9 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.1.1"
     framer-motion: "npm:12.43.0"
-    i18next: "npm:^26.5.11"
-    i18next-browser-languagedetector: "npm:^8.2.3"
-    i18next-resources-to-backend: "npm:^1.2.3"
+    i18next: "npm:^26.7.1"
+    i18next-browser-languagedetector: "npm:^8.3.0"
+    i18next-resources-to-backend: "npm:^1.2.4"
     lodash-es: "npm:4.18.1"
     material-ui-popup-state: "npm:5.3.7"
     md5: "npm:^2.3.0"
@@ -7308,7 +7308,7 @@ __metadata:
     react-apexcharts: "npm:1.9.0"
     react-device-detect: "npm:2.2.3"
     react-dom: "npm:19.3.1"
-    react-i18next: "npm:^17.1.9"
+    react-i18next: "npm:^17.1.11"
     react-markdown: "npm:^10.1.0"
     react-router: "npm:7.18.5"
     react-router-dom: "npm:7.18.5"
